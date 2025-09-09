@@ -1,0 +1,154 @@
+{
+  "total_redactions": 42,
+  "redaction_breakdown": {
+    "names": 28,
+    "emails": 14
+  },
+  "email_analytics": {
+    "sentiments": [
+      {
+        "polarity": 0.07083333333333333,
+        "subjectivity": 0.1958333333333333,
+        "urgency": "high",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": 0.09494949494949496,
+        "subjectivity": 0.3840909090909091,
+        "urgency": "medium",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": 0.011111111111111118,
+        "subjectivity": 0.19999999999999998,
+        "urgency": "medium",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": 0.06666666666666667,
+        "subjectivity": 0.3066666666666667,
+        "urgency": "medium",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": 0.16666666666666669,
+        "subjectivity": 0.25666666666666665,
+        "urgency": "medium",
+        "description": "positive and objective"
+      },
+      {
+        "polarity": 0.18666666666666668,
+        "subjectivity": 0.22000000000000003,
+        "urgency": "medium",
+        "description": "positive and objective"
+      },
+      {
+        "polarity": -0.13958333333333334,
+        "subjectivity": 0.23124999999999998,
+        "urgency": "medium",
+        "description": "negative and objective"
+      },
+      {
+        "polarity": -0.01333333333333333,
+        "subjectivity": 0.16,
+        "urgency": "medium",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": 0.014166666666666666,
+        "subjectivity": 0.17666666666666667,
+        "urgency": "medium",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": -0.16666666666666666,
+        "subjectivity": 0.3333333333333333,
+        "urgency": "medium",
+        "description": "negative and objective"
+      },
+      {
+        "polarity": 0.011111111111111118,
+        "subjectivity": 0.17777777777777778,
+        "urgency": "medium",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": -0.06666666666666667,
+        "subjectivity": 0.5333333333333333,
+        "urgency": "medium",
+        "description": "neutral and subjective"
+      },
+      {
+        "polarity": 0.011111111111111118,
+        "subjectivity": 0.17777777777777778,
+        "urgency": "medium",
+        "description": "neutral and objective"
+      },
+      {
+        "polarity": 0.16666666666666669,
+        "subjectivity": 0.12666666666666665,
+        "urgency": "medium",
+        "description": "positive and objective"
+      }
+    ],
+    "categories": [
+      "Health",
+      "Transportation",
+      "Academic",
+      "Library",
+      "Academic",
+      "Behavioral",
+      "Academic",
+      "Administrative",
+      "Health",
+      "Behavioral",
+      "Administrative",
+      "Library",
+      "General",
+      "Health"
+    ],
+    "urgency_levels": [
+      "high",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium"
+    ],
+    "entities_found": [],
+    "word_frequencies": {}
+  },
+  "timing_data": {
+    "individual_redactions": [
+      0.025060176849365234,
+      0.023591041564941406,
+      0.022737979888916016,
+      0.02176213264465332,
+      0.023277759552001953,
+      0.023311138153076172,
+      0.0008282661437988281,
+      0.02368474006652832,
+      0.0006039142608642578,
+      0.0007579326629638672,
+      0.0004279613494873047,
+      0.0005490779876708984,
+      0.0010831356048583984,
+      0.0010328292846679688
+    ],
+    "total_redaction_time": 1.0655789375305176,
+    "pdf_generation_time": 1.092803955078125,
+    "chart_generation_time": 0.1643509864807129,
+    "total_processing_time": 2.3233749866485596,
+    "document_creation_time": 1.257154941558838
+  },
+  "unique_students": 12,
+  "processing_timestamp": "2025-09-09T09:50:14.504645"
+}
