@@ -30,7 +30,6 @@ def redact_student_names(text, student_names):
         return text
     
     # Create a single regex pattern for all names using alternation
-    # This is much more efficient than multiple re.sub calls
     escaped_names = [re.escape(name) for name in student_names]
     pattern = re.compile(r'\b(?:' + '|'.join(escaped_names) + r')\b', re.IGNORECASE)
     
