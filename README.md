@@ -47,6 +47,8 @@ python enhanced_redact_emails.py ../deduplicated_messages.txt output.pdf
 
 **Enhanced:** The advanced version leverages parallel processing through `ProcessPoolExecutor` from the multiprocessing library to handle multiple emails simultaneously. It utilizes fuzzy name matching using the `fuzzywuzzy` library with Levenshtein distance algorithms to catch misspelled names. Sentiment analysis is performed via `TextBlob` for polarity and subjectivity scoring, while category detection uses keyword matching against predefined dictionaries. The system generates interactive charts using `Plotly` and `matplotlib`, and includes comprehensive performance timing and analytics collection throughout the processing pipeline.
 
+Note: For enhanced logic, classifications for urgency and sentiment analysis might be slighly incorrect. This implementaiton was left basic since it is an additional feature, would be interested in further exploring these metrics. 
+
 ## Assumptions Made
 - Student emails follow @student.d123.org pattern
 - Email blocks separated by `---`
