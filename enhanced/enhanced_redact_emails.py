@@ -515,7 +515,7 @@ def process_email_content(args):
         'processing_time': processing_time
     }
 
-def main_email_processor(input_file, output_file, student_names=None, use_parallel=True, max_workers=None):
+def main_email_processor(input_file, output_file, student_names=None, use_parallel=False, max_workers=None):
     """Main email processing pipeline with redaction, NLP analysis, and PDF generation."""
     overall_start_time = time.time()
     
@@ -706,8 +706,8 @@ def main():
     )
     parser.add_argument('input_file', help='Input text file containing email content')
     parser.add_argument('output_file', help='Output PDF file for redacted content')
-    parser.add_argument('--parallel', action='store_true', default=True,
-                        help='Use parallel processing (default: True)')
+    parser.add_argument('--parallel', action='store_true', default=False,
+                        help='Enable parallel processing (default: sequential)')
     parser.add_argument('--workers', type=int, default=None,
                         help='Number of parallel workers (default: auto-detect)')
     parser.add_argument(

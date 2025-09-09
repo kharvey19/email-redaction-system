@@ -16,6 +16,8 @@ Chart generation consumes 65% of processing time, while redaction takes only 7.2
 | 1,000 | 9.0s | 3.2s | 64% |
 | 10,000 | 84.5s | 25.8s | 69% |
 
+Note: This will have to be tested with real data
+
 ## Key Findings
 
 The system scales excellently with parallel processing providing 54-69% speedups. Chart generation is the primary bottleneck, while the sub-linear scaling pattern makes it ideal for high-volume deployments.
